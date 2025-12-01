@@ -62,7 +62,7 @@ export default function ListsPanel() {
 
         try {
             // Call the AML AI Agent API
-            const response = await fetch("http://localhost:5001/api/agent/chat", {
+            const response = await fetch("http://192.168.246.126:5001/api/agent/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
