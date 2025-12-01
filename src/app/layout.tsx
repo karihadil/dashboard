@@ -1,6 +1,4 @@
-'use client';
-
-// app/layout.tsx
+"use client";
 import "./globals.css";
 import { ReactNode, useState } from "react";
 import SideNav from "./components/SideNav";

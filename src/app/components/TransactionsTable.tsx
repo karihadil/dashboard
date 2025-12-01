@@ -1,17 +1,17 @@
 import React from "react";
-
-const rows = [
-    { id: 1, account: "ACC123", amount: "$12,000", risk: "High" },
-    { id: 2, account: "ACC234", amount: "$2,400", risk: "Medium" },
-    { id: 3, account: "ACC345", amount: "$500", risk: "Low" },
-];
-
+// src/components/TransactionsTable.tsx
 export default function TransactionsTable() {
+    const rows = [
+        { id: 1, account: "ACC123", amount: "$12,000", risk: "High" },
+        { id: 2, account: "ACC234", amount: "$2,400", risk: "Medium" },
+        { id: 3, account: "ACC345", amount: "$500", risk: "Low" },
+    ];
+
     return (
         <div className="bg-white rounded shadow p-4">
-            <h3 className="font-semibold mb-3">Transactions (static)</h3>
-            <table className="min-w-full text-left text-sm">
-                <thead className="text-gray-600">
+            <h3 className="font-semibold mb-3">Transactions</h3>
+            <table className="w-full text-left text-sm">
+                <thead className="text-gray-500">
                     <tr>
                         <th className="py-2">ID</th>
                         <th className="py-2">Account</th>
