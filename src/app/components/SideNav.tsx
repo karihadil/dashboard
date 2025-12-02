@@ -18,7 +18,7 @@ const navItems = [
     { href: "/case", label: "Case Management", icon: Briefcase },
     { href: "/transactions", label: "Transactions", icon: CreditCard },
     { href: "/credit", label: "Credit Decisions", icon: Landmark },
-    { href: "/lists", label: "Watchlists (AML)", icon: Globe },
+    { href: "/list", label: "Watchlists (AML)", icon: Globe },
     { href: "/photos", label: "Face Search", icon: Camera },
 ];
 
